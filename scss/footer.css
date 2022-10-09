@@ -5,6 +5,11 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
 .footer {
   background: #151421;
   border-top: 1px solid rgba(249, 249, 249, 0.1);
@@ -49,14 +54,10 @@ body {
   padding: 0;
   opacity: 0.8;
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 .footer .footer_embrace .footer_container .row .column_corp_vision .footer_logo .brand_company {
   margin: 0;
@@ -98,14 +99,16 @@ body {
   padding: 0;
   opacity: 0.8;
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.footer .footer_embrace .footer_container .row .column_categories ul li {
+  margin-top: 20px;
+}
+.footer .footer_embrace .footer_container .row .column_meta ul li {
+  margin-top: 20px;
 }
 .footer .copyright {
   padding: 1.5em 0;
@@ -119,14 +122,10 @@ body {
   padding: 0;
   opacity: 0.8;
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 .footer .copyright .copyright_container .content_copyright a {
   color: #009f4d;

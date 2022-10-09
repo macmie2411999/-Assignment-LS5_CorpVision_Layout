@@ -8,6 +8,11 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
+ul{
+    list-style:none;
+    padding:0 !important;
+}
+
 .footer {
 
     // format sundries
@@ -133,10 +138,22 @@ body {
                 }
 
                 // element 3
-                .column_categories {}
+                .column_categories {
+                    ul{
+                        li{
+                            margin-top: 20px;
+                        }
+                    }
+                }
 
                 // element 4
-                .column_meta {}
+                .column_meta {
+                    ul{
+                        li{
+                            margin-top: 20px;
+                        }
+                    }
+                }
             }
 
         }
@@ -149,7 +166,6 @@ body {
 
         .copyright_container {
             .content_copyright {
-
                 font-size: 18px;
                 line-height: 28px;
                 color: #97a1a9;

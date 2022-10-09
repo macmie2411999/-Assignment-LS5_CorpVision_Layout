@@ -1,5 +1,5 @@
 // text
-$text-c1-primary:#009f4d;
+$text-c1-primary: #009f4d;
 
 body {
     padding: 0.5;
@@ -9,27 +9,26 @@ body {
 }
 
 .header {
-
     // format sundries
     a:hover {
         color: #fff;
         opacity: 1;
     }
-
     a {
         background-color: transparent;
         cursor: pointer !important;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 28px;
-        color: #97a1a9;
+        color: white;
+        font-weight:700;
         opacity: .8;
+        text-transform: uppercase;
     }
 
     .container_header {
         .navbar {
             // format general navbar
-
             position: relative;
             display: flex;
             flex-wrap: wrap;
@@ -37,35 +36,71 @@ body {
             justify-content: space-between;
             padding: 0.5rem 1rem;
 
-
-            .brand_company {
-                margin: 0;
-                padding: 0;
-                font-size: 32px;
-                font-weight: 600;
-                text-transform: capitalize;
-                color: #fff;
-                opacity: 1;
-                display: inline-block;
-                white-space: nowrap;
-                line-height: inherit;
-
-
-                .logo {
-                    color: $text-c1-primary;
-                    margin-right: 5px;
-                    vertical-align: bottom;
-                }
-
-                span.content_logo {
-                    text-transform: none;
-                    display: block;
-                    font-size: 14px;
-                    padding-left: 46px;
+            h1 {
+                .brand_company {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 32px;
                     font-weight: 600;
-                    opacity: .9;
+                    text-transform: capitalize;
+                    color: #fff;
+                    opacity: 1;
+                    display: inline-block;
+                    white-space: nowrap;
+                    line-height: inherit;
+
+
+                    .logo {
+                        color: $text-c1-primary;
+                        margin-right: 5px;
+                        vertical-align: bottom;
+                    }
+
+                    span.content_logo {
+                        text-transform: none;
+                        display: block;
+                        font-size: 14px;
+                        padding-left: 46px;
+                        font-weight: 600;
+                        opacity: .9;
+                    }
                 }
             }
+.navbar-toggler{
+    .navbar-toggler-icon {
+
+    }
+}
+.collapse{
+    .navbar-nav{
+        .nav-item {
+            a{
+                color:white;
+            }
+            ul.sub-menu{
+                li{
+                    a{
+
+                    }
+                }
+            }
+        }
+    }
+    .header-search {
+        .control{
+            .btn-material{
+                i{
+
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
         }
     }
 }
@@ -101,7 +136,7 @@ body {
 
                     }
 
-                    p { 
+                    p {
                         animation: "fadeInDown";
                         color: "#fff";
                         font-size: 20px;
