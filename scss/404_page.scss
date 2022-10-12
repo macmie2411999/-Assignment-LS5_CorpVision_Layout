@@ -8,11 +8,25 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
+// HEADER STYLE
 .header {
-    background: url(../image/b1.jpg) no-repeat center;
-    background-size: cover;
-    padding: 0 0 100px;
+    // background: url(../image/b1.jpg) no-repeat center;
+    // background-size: cover;
+    // padding: 0 0 100px;
     // background-attachment: fixed;
+    // position: relative;
+
+    padding: 0px;
+    transition: all 0.4s ease 0s;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    z-index: 10;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.18);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 
     // format sundries
     a:hover {
@@ -30,22 +44,18 @@ body {
         opacity: .8;
     }
 
-    .over-layout {
-        background: rgba(29, 42, 55, 0.8);
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-    }
-
     .container_header {
-        position: relative;
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+
         .navbar {
             // format general navbar
             background-color: transparent;
-            border-bottom: 3px solid rgba(231, 231, 231, 0.18);
+            // border-bottom: 3px solid rgba(231, 231, 231, 0.18);
 
             .brand_company {
                 margin: 25px;
@@ -132,35 +142,58 @@ body {
                 transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
             }
         }
-
-
-    }
-
-    .container-text-center {
-        max-width: 1200px;
-        margin-right: auto;
-        margin-left: auto;
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        text-align: center !important;
-
-        .title-page {
-            color: #fff;
-            font-size: 50px;
-            font-weight: 600;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .content-title-page {
-            color: #fff;
-            font-size: 20px;
-            opacity: 0.7;
-        }
     }
 }
 
+.image-text-center {
+    text-align: center !important;
+
+    .container-image-text {
+        background: url(https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/b1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        position: relative;
+        z-index: 0;
+        text-align: center !important;
+
+        .container-text-center {
+            max-width: 1200px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-align: center !important;
+
+            .title-page {
+                color: #fff;
+                font-size: 50px;
+                font-weight: 600;
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .content-title-page {
+                color: #fff;
+                font-size: 20px;
+                opacity: 0.7;
+            }
+        }
+
+        .over-layout {
+            background: rgba(29, 42, 55, 0.8);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+}
+// HEADER STYLE END
+
+// MAIN STYLE
 .main-page-not-found {
     // position: absolute;
 
@@ -266,7 +299,9 @@ body {
         }
     }
 }
+// MAIN STYLE END
 
+// FOOTER STYLE
 .footer {
 
     // format sundries
@@ -285,36 +320,28 @@ body {
         opacity: .8;
     }
 
-    .py-5 {
-        padding-bottom: 3rem !important;
-        padding-top: 3rem !important;
-    }
-
-    .py-md-4 {
-        padding-top: 1.5rem !important;
-        padding-bottom: 1.5rem !important;
-    }
-
-
     // format general footer
     background: #151421;
     border-top: 1px solid rgba(249, 249, 249, 0.1);
 
     // format content of footer
     .footer_embrace {
-        // format general embrace
-        margin-top: 25px;
-        position: relative;
 
         .footer_container {
             // format general footer_container
+            max-width: 1200px;
+            margin-right: auto;
+            margin-left: auto;
             width: 100%;
             padding-right: 15px;
             padding-left: 15px;
-            margin-right: auto;
-            margin-left: auto;
+
 
             .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
 
                 // element 1
                 .column_corp_vision {
@@ -327,10 +354,6 @@ body {
                         padding: 0;
                         opacity: .8;
                         display: block;
-                        margin-block-start: 1em;
-                        margin-block-end: 1em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
                     }
 
                     .footer_logo {
@@ -339,7 +362,6 @@ body {
                             padding: 0;
                             font-size: 30px;
                             font-weight: 600;
-                            text-transform: capitalize;
                             color: #fff;
                             opacity: 1;
 
@@ -370,7 +392,6 @@ body {
                     font-weight: 400;
                     position: relative;
                     color: #fff;
-                    text-transform: uppercase;
                     letter-spacing: .5px;
                 }
 
@@ -384,11 +405,18 @@ body {
                         padding: 0;
                         opacity: .8;
                         display: block;
-                        margin-block-start: 1em;
-                        margin-block-end: 1em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
                     }
+                }
+
+                ul {
+                    li {
+                        list-style: none;
+                        margin-bottom: 10px;
+                    }
+
+                    margin: 0;
+                    padding: 0;
+                    list-style: disc;
                 }
 
                 // element 3
@@ -416,10 +444,6 @@ body {
                 padding: 0;
                 opacity: .8;
                 display: block;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
 
                 a {
                     color: $text-c1-primary;
@@ -433,3 +457,4 @@ body {
 
     }
 }
+// FOOTER STYLE END

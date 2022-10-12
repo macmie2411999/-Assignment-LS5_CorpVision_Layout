@@ -22,24 +22,19 @@ body {
   color: #97a1a9;
   opacity: 0.8;
 }
-.footer .py-5 {
-  padding-bottom: 3rem !important;
-  padding-top: 3rem !important;
-}
-.footer .py-md-4 {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
-}
-.footer .footer_embrace {
-  margin-top: 25px;
-  position: relative;
-}
 .footer .footer_embrace .footer_container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+}
+.footer .footer_embrace .footer_container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 .footer .footer_embrace .footer_container .row .column_corp_vision .content_company {
   font-size: 18px;
@@ -49,21 +44,12 @@ body {
   padding: 0;
   opacity: 0.8;
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
 }
 .footer .footer_embrace .footer_container .row .column_corp_vision .footer_logo .brand_company {
   margin: 0;
   padding: 0;
   font-size: 30px;
   font-weight: 600;
-  text-transform: capitalize;
   color: #fff;
   opacity: 1;
 }
@@ -87,7 +73,6 @@ body {
   font-weight: 400;
   position: relative;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 .footer .footer_embrace .footer_container .row .column_contact_info .content_contact_info {
@@ -98,14 +83,15 @@ body {
   padding: 0;
   opacity: 0.8;
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+}
+.footer .footer_embrace .footer_container .row ul {
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+}
+.footer .footer_embrace .footer_container .row ul li {
+  list-style: none;
+  margin-bottom: 10px;
 }
 .footer .copyright {
   padding: 1.5em 0;
@@ -119,14 +105,6 @@ body {
   padding: 0;
   opacity: 0.8;
   display: block;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
 }
 .footer .copyright .copyright_container .content_copyright a {
   color: #009f4d;
