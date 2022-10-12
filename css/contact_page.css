@@ -157,6 +157,182 @@ body {
   z-index: -1;
 }
 
+.contact {
+  background: #100f19;
+}
+.contact .contact-container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.contact .contact-container .contact-title-content {
+  max-width: 800px;
+  margin: auto;
+}
+.contact .contact-container .contact-title-content .title {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+.contact .contact-container .contact-title-content .title-content {
+  font-size: 17px;
+  line-height: 27px;
+  color: #c2c2c2;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}
+.contact .contact-container .contact-info .contact-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.contact .contact-container .contact-info .contact-info-container .element-contact-info {
+  display: grid;
+  height: 170px;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  background: #151421;
+  padding: 30px;
+  box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+  border-radius: 8px;
+}
+.contact .contact-container .contact-info .contact-info-container .element-contact-info .icon-element {
+  color: #eee;
+}
+.contact .contact-container .contact-info .contact-info-container .element-contact-info .icon-element .fa {
+  font-size: 40px;
+}
+.contact .contact-container .contact-info .contact-info-container .element-contact-info .text-element h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+.contact .contact-container .contact-info .contact-info-container .element-contact-info .text-element p {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 27px;
+  color: #c2c2c2;
+  opacity: 0.8;
+}
+.contact .contact-container .contact-info .contact-info-container .element-contact-info .text-element p a:hover {
+  color: #fff;
+  opacity: 1;
+}
+.contact .contact-container .contact-info .contact-info-container .element-contact-info .text-element p a {
+  background-color: transparent;
+  cursor: pointer !important;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  color: #97a1a9;
+  opacity: 0.8;
+}
+
+.map-contact {
+  background: #100f19;
+}
+.map-contact .map-container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.map-contact .map-container iframe {
+  border: none;
+  width: 100%;
+  min-height: 400px;
+  display: block;
+  max-width: 100%;
+}
+
+.form-contact {
+  background: #100f19;
+}
+.form-contact .form-contact-over .form-contact-container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.form-contact .form-contact-over .form-contact-container .form-content {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .form-title-content .title {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .form-title-content .title-form {
+  max-width: 600px;
+  margin: auto;
+  font-size: 17px;
+  line-height: 27px;
+  color: #c2c2c2;
+  opacity: 0.8;
+}
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .form-title-content .form-top input,
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .form-title-content .form-top textarea {
+  width: 100%;
+  color: #c2c2c2;
+  background: #151421;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  padding: 0px 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  height: 60px;
+  display: inline-block;
+  line-height: 50px;
+  box-shadow: none;
+  overflow: visible;
+  border-radius: 8px;
+}
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .form-title-content .form-top .basic-infor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .form-title-content .form-top .message-infor textarea {
+  margin: 25px;
+  resize: none;
+  height: 130px;
+}
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .submit {
+  text-align: right !important;
+}
+.form-contact .form-contact-over .form-contact-container .form-content .form-content-container .submit button {
+  padding: 15px 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+  border-radius: 8px;
+  cursor: pointer !important;
+  color: #fff;
+  background-color: #00a63f;
+  border-color: #00a63f;
+}
+
 .footer {
   background: #151421;
   border-top: 1px solid rgba(249, 249, 249, 0.1);
