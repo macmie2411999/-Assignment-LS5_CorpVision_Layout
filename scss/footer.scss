@@ -1,14 +1,7 @@
-// text
-$text-c1-primary:#009f4d;
+// Base
+@import '../scss/_base.scss';
 
-body {
-    padding: 0.5;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
-}
-
-// FOOTER STYLE
+// Footer Style
 .footer {
 
     // format sundries
@@ -164,4 +157,4 @@ body {
 
     }
 }
-// FOOTER STYLE END
+// Footer Style End
