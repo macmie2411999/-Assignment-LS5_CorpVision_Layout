@@ -13,17 +13,17 @@ For Those Who Believe In Leaving A Mark
 
 ## HÌNH ẢNH DEMO
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nohit-Java17/Jira-Project/main/pic/0.jpg"></img>
+<img src=""></img>
 </p>
 
 ## VIDEO DEMO
 <div align="center">
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YXG24rEs8Q4/0.jpg)](https://youtu.be/YXG24rEs8Q4)
+[![IMAGE ALT TEXT HERE]()]()
 
 </div>
 
-## _base.scss
+## BASE
 ```scss
 // Base 
 $text-c1-primary:#009f4d;
@@ -33,9 +33,10 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
-}```
+}
+```
 
-## header.html
+## HEADER
 ```html
 <!-- HEADER -->
     <header class="header fixed-top">
@@ -116,9 +117,10 @@ body {
             <div class="over-layout"></div>
         </div>
     </section>
-    <!-- HEADER END -->```
+    <!-- HEADER END -->
+```
     
-## footer.html
+## FOOTER
 ```html
 <!-- FOOTER -->
     <footer class="footer">
@@ -212,7 +214,8 @@ body {
         </section>
 
     </footer>
-    <!-- FOOTER END -->```
+    <!-- FOOTER END -->
+```
 
 ### THÀNH VIÊN
 Nhóm gồm 2 thành viên:
