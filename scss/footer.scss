@@ -1,13 +1,7 @@
-// text
-$text-c1-primary:#009f4d;
+// Base
+@import '../scss/_base.scss';
 
-body {
-    padding: 0.5;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
-}
-
+// Footer Style
 .footer {
 
     // format sundries
@@ -26,36 +20,28 @@ body {
         opacity: .8;
     }
 
-    .py-5 {
-        padding-bottom: 3rem !important;
-        padding-top: 3rem !important;
-    }
-
-    .py-md-4 {
-        padding-top: 1.5rem !important;
-        padding-bottom: 1.5rem !important;
-    }
-
-
     // format general footer
     background: #151421;
     border-top: 1px solid rgba(249, 249, 249, 0.1);
 
     // format content of footer
     .footer_embrace {
-        // format general embrace
-        margin-top: 25px;
-        position: relative;
 
         .footer_container {
             // format general footer_container
+            max-width: 1200px;
+            margin-right: auto;
+            margin-left: auto;
             width: 100%;
             padding-right: 15px;
             padding-left: 15px;
-            margin-right: auto;
-            margin-left: auto;
+
 
             .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
 
                 // element 1
                 .column_corp_vision {
@@ -68,10 +54,6 @@ body {
                         padding: 0;
                         opacity: .8;
                         display: block;
-                        margin-block-start: 1em;
-                        margin-block-end: 1em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
                     }
 
                     .footer_logo {
@@ -80,7 +62,6 @@ body {
                             padding: 0;
                             font-size: 30px;
                             font-weight: 600;
-                            text-transform: capitalize;
                             color: #fff;
                             opacity: 1;
 
@@ -111,7 +92,6 @@ body {
                     font-weight: 400;
                     position: relative;
                     color: #fff;
-                    text-transform: uppercase;
                     letter-spacing: .5px;
                 }
 
@@ -125,11 +105,18 @@ body {
                         padding: 0;
                         opacity: .8;
                         display: block;
-                        margin-block-start: 1em;
-                        margin-block-end: 1em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
                     }
+                }
+
+                ul {
+                    li {
+                        list-style: none;
+                        margin-bottom: 10px;
+                    }
+
+                    margin: 0;
+                    padding: 0;
+                    list-style: disc;
                 }
 
                 // element 3
@@ -157,10 +144,6 @@ body {
                 padding: 0;
                 opacity: .8;
                 display: block;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
 
                 a {
                     color: $text-c1-primary;
@@ -174,3 +157,4 @@ body {
 
     }
 }
+// Footer Style End
