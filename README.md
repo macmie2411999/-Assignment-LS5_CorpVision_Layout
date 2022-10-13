@@ -22,12 +22,12 @@ For Those Who Believe In Leaving A Mark <br>
 ### THÀNH VIÊN
 Nhóm gồm 2 thành viên:
 
-- Cao Đức Mạnh (MacMie)
-  Tạo HEADER và FOOTER dùng chung có các pages
-  Pages: contact,blog pots, 404
+- Cao Đức Mạnh (MacMie) <br>
+  Tạo HEADER và FOOTER dùng chung có các pages  <br>
+  Pages: contact,blog pots, 404  <br>
   
-- Nguyễn Tuấn
-  Pages: about, services, element pages
+- Nguyễn Tuấn  <br>
+  Pages: about, services, element pages  <br>
 
 ## BASE
 ```scss
