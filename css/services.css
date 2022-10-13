@@ -23,6 +23,7 @@ ul {
 }
 
 .header {
+  background: #100f19;
   padding: 0px;
   transition: all 0.4s ease 0s;
   height: 100px;

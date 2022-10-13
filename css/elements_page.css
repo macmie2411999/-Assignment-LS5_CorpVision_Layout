@@ -23,6 +23,7 @@ ul {
 }
 
 .header {
+  background: #100f19;
   padding: 0px;
   transition: all 0.4s ease 0s;
   height: 100px;
@@ -57,7 +58,7 @@ ul {
   padding-left: 15px;
 }
 .header .container_header .navbar {
-  background-color: #100f19;
+  background-color: transparent;
 }
 .header .container_header .navbar .brand_company {
   margin: 25px;
