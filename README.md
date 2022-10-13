@@ -6,7 +6,7 @@ For Those Who Believe In Leaving A Mark <br>
 
 ## LINK DEMO
 <div align="center">
-[]()
+<!-- []() -->
 </div>
 
 ## HÌNH ẢNH DEMO
@@ -23,7 +23,7 @@ For Those Who Believe In Leaving A Mark <br>
 Nhóm gồm 2 thành viên:
 
 - Cao Đức Mạnh (MacMie) <br>
-  Tạo HEADER và FOOTER dùng chung có các pages  <br>
+  Tạo Header và Footer dùng chung <br>
   Pages: contact,blog pots, 404  <br>
   
 - Nguyễn Tuấn  <br>
