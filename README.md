@@ -1,14 +1,12 @@
 # Project CorpVision
-We Will Solve Your Issues Our Vision To Your Future
-Embracing Success Do Our Best, Need Best Advices
-Digital Transformation Driven By Technology
-For Those Who Believe In Leaving A Mark
+We Will Solve Your Issues Our Vision To Your Future <br>
+Embracing Success Do Our Best, Need Best Advices <br>
+Digital Transformation Driven By Technology <br>
+For Those Who Believe In Leaving A Mark <br>
 
 ## LINK DEMO
 <div align="center">
-
-[Click vào đây để xem chi tiết](https://jira-project.herokuapp.com)
-
+[](https://jira-project.herokuapp.com)
 </div>
 
 ## HÌNH ẢNH DEMO
@@ -18,10 +16,18 @@ For Those Who Believe In Leaving A Mark
 
 ## VIDEO DEMO
 <div align="center">
-
-[![IMAGE ALT TEXT HERE]()]()
-
+[![]()]()
 </div>
+
+### THÀNH VIÊN
+Nhóm gồm 2 thành viên:
+
+- Cao Đức Mạnh (MacMie)
+  Tạo HEADER và FOOTER dùng chung có các pages
+  Pages: contact,blog pots, 404
+  
+- Nguyễn Tuấn
+  Pages: about, services, element pages
 
 ## BASE
 ```scss
@@ -217,17 +223,6 @@ body {
     <!-- FOOTER END -->
 ```
 
-### THÀNH VIÊN
-Nhóm gồm 2 thành viên:
-
-- Cao Đức Mạnh (MacMie)
-  Tạo HEADER và FOOTER dùng chung có các pages
-  Pages: contact,blog pots, 404
-  
-- Nguyễn Tuấn
-  Pages: about, services, element pages
-
-</div>
 
 
 
