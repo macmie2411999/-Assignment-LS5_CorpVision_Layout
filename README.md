@@ -9,7 +9,7 @@ For Those Who Believe In Leaving A Mark <br>
 ## LINK DEMO
 <div align="center">
 
-[Click vào đây để xem chi tiết](https://corpvisionv1.surge.sh/)
+[Click vào đây để xem chi tiết](https://corpvisionv5.surge.sh/about_page.html)
 
 </div>
 
