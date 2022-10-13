@@ -25,7 +25,7 @@ For Those Who Believe In Leaving A Mark <br>
 <img src="https://github.com/macmie2411999/-Assignment-LS5_CorpVision_Layout/blob/91da979d9ac2623caeb322b67cfb575c69364c2f/image-preview/contact-image.png"></img>
 </p>
 
-### THÀNH VIÊN
+## THÀNH VIÊN
 
 Nhóm gồm 2 thành viên:
 
