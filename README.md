@@ -39,8 +39,6 @@ Nhóm gồm 2 thành viên:
 ## BASE
 ```scss
 // Base 
-$text-c1-primary:#009f4d;
-
 body {
     padding: 0.5;
     margin: 0;
