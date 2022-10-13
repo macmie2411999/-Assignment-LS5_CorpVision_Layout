@@ -13,16 +13,20 @@ For Those Who Believe In Leaving A Mark <br>
 
 </div>
 
+## VIDEO DEMO
+<div align="center">
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wXwULGS4HiQ/0.jpg)](https://youtu.be/wXwULGS4HiQ)
+
+</div>
+
 ## HÌNH ẢNH DEMO
 <p align="center">
 <img src="https://github.com/macmie2411999/-Assignment-LS5_CorpVision_Layout/blob/91da979d9ac2623caeb322b67cfb575c69364c2f/image-preview/contact-image.png"></img>
 </p>
 
-## VIDEO DEMO
-<div align="center">
-</div>
-
 ### THÀNH VIÊN
+
 Nhóm gồm 2 thành viên:
 
 - Cao Đức Mạnh (MacMie) <br>
