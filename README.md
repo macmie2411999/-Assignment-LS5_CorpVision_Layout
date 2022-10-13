@@ -26,10 +26,10 @@ Nhóm gồm 2 thành viên:
 
 - Cao Đức Mạnh (MacMie) <br>
   Tạo Header và Footer dùng chung <br>
-  Pages: contact,blog pots, 404  <br>
+  Pages: Contact, Blog Posts, 404  <br>
   
 - Nguyễn Tuấn  <br>
-  Pages: about, services, element pages  <br>
+  Pages: About, Services, Element Pages  <br>
 
 ## BASE
 ```scss
