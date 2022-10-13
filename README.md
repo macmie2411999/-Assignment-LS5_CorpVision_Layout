@@ -1,8 +1,10 @@
 # Project CorpVision
+<div align="center">
 We Will Solve Your Issues Our Vision To Your Future <br>
 Embracing Success Do Our Best, Need Best Advices <br>
 Digital Transformation Driven By Technology <br>
 For Those Who Believe In Leaving A Mark <br>
+</div>
 
 ## LINK DEMO
 <div align="center">
@@ -11,7 +13,7 @@ For Those Who Believe In Leaving A Mark <br>
 
 ## HÌNH ẢNH DEMO
 <p align="center">
-<img src="https://raw.githubusercontent.com/-Assignment-LS5_CorpVision_Layout/image-preview/contact-image.png"></img>
+<img src="https://github.com/macmie2411999/-Assignment-LS5_CorpVision_Layout/blob/91da979d9ac2623caeb322b67cfb575c69364c2f/image-preview/contact-image.png"></img>
 </p>
 
 ## VIDEO DEMO
