@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../css/404_page.min.css">
-    <title>404 page - Corpvision - Corporate Category</title>
+    <link rel="stylesheet" href="../css/blog_posts_page.min.css">
+    <title>Blog Posts - Corpvision - Corporate Category</title>
 
     <!-- FONT -->
     <!-- FontAwesome 6.1.1 CSS -->
@@ -99,9 +99,9 @@
             <div class="container-text-center py-lg-5 py-md-4">
                 <div class="pt-md-5 pt-4">
                     <h2 class="title-page">
-                        Error Page</h2>
+                        Blog Posts</h2>
                     <p class="content-title-page mt-2">
-                        Page connot be found </p>
+                        Find all our latest news, insights, and events </p>
                 </div>
             </div>
 
@@ -111,37 +111,27 @@
     <!-- HEADER END -->
 
     <!-- MAIN -->
-    <main class="main-page-not-found">
-        <section class="page-not-found py-5">
-            <div class="container-page-not-found py-lg-5 py-md-4 ">
-                <div class="content-page-not-found align-items-center">
-                    <div class="row">
-                        <div class="col-md-6 col-9">
-                            <img src="../image/error.svg" class="img-error" alt="page-not-found-image">
-                        </div>
-                        <div class="title-and-search col-md-6">
-                            <h3 class="pnf-text">404</h3>
-                            <h5 class="pnf-content mt-lg-4">Something's Missing</h5>
-                            <p>The page you are looking for was moved, removed, <br> renamed or never existed.</p>
-
-                            <!-- Search -->
-                            <form class="search-form mt-4" action="" method="">
-                                <input class="input-search" type="search" placeholder="Search" aria-label="email"
-                                    required="">
-                                <button class="btn btn-search" type="submit"><span class="fa fa-search"></span></button>
-                            </form>
-                            <!-- Search End -->
-
-                            <br>
-                            <a href="home_page.html" class="btn-go-back-home mt-md-5 mt-4">
-                                <i class="fa fa-arrow-left mr-2" aria-hidden="true"></i> Go back to Home</a>
-
-                        </div>
-                    </div>
+    <section class="blog-posts">
+        <div class="blog-posts-container py-5">
+            <div class="article-container py-lg-5 py-md-4 py-2">
+                <div class="row">
+                    <!-- Insert Articles Here By JS -->
                 </div>
+
+                <!-- Pagination -->
+                <div class="pagination text-center">
+                    <ul class='pages'>
+                        <li><span aria-current="page" class="page-numbers current">1</span></li>
+                        <li><a class="page-numbers" href="blog_posts_second_page.html">2</a></li>
+                        <li><a class="next page-numbers" href="blog_posts_second_page.html">Next</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Pagination End -->
+
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
     <!-- MAIN END -->
 
     <!-- FOOTER -->
@@ -242,6 +232,9 @@
 
     </footer>
     <!-- FOOTER END -->
+
+    <!-- IMPORT JS -->
+    <script src="../javascript/blog_posts_page.js"></script>
 
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
