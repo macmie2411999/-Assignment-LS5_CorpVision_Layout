@@ -1,0 +1,214 @@
+
+// Base
+@import '../scss/_base.scss';
+
+// Header and Footer Style
+@import '../scss/header_theme_white.scss';
+
+@import '../scss/footer.scss';
+// Header and Footer Style End
+
+// Main Style
+$text-c1-gray: #7e7d7d;
+$text-c1-primary: #3f3a64;
+$text--c1-green: #009f4d;
+
+
+$bg-color-primary: #009f4d;
+$bg-light-gray: #f8f9fa;
+$bg-gray: #7e7d7d;
+$bg-c1-primary: #3f3a64;
+
+@mixin text-heading($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color
+}
+
+@mixin button($fs, $fw, $color, $bg-color, $padding , $border, $border-radius, $bg-hover, $color-hover) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    background: $bg-color;
+    padding: $padding;
+    border: $border;
+    border-radius: $border-radius;
+
+    &:hover {
+        background: $bg-hover;
+        color: $color-hover;
+    }
+}
+
+a {
+    text-decoration: none !important;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+// Elements 
+
+.Element {
+    .container {
+        .Element-content {
+            .titel {
+                @include text-heading(24px, 600, $text-c1-primary);
+            }
+
+            #btn {
+                transition: all 0.5s;
+                @include button(16px, 600, white, $bg-color-primary , 15px 50px, 1px solid $bg-color-primary, 8px, #00732c, white)
+            }
+
+            #btn1 {
+                transition: all 0.5s;
+                @include button(16px, 600, white, $bg-color-primary , 6px 12px, 1px solid $bg-color-primary, 8px, #00732c, white)
+            }
+
+            #btn2 {
+                transition: all 0.5s;
+                @include button(16px, 600, white, $bg-gray , 5px 10px, 1px solid $bg-gray, 8px, $bg-color-primary, white)
+            }
+
+            #btn3 {
+                transition: all 0.5s;
+                @include button(16px, 600, white, $bg-c1-primary , 6px 12px, 1px solid $bg-c1-primary, 8px, $bg-c1-primary, white)
+            }
+
+            .alert {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+
+            .text {
+                padding: 64px 32px;
+                background: $bg-light-gray;
+                border-radius: 8px;
+                margin-bottom: 32px;
+
+                h1 {
+                    color: $text-c1-primary;
+                }
+
+                p {
+                    color: $text-c1-gray;
+                    font-weight: 400;
+                }
+
+                #btn {
+                    transition: all 0.5s;
+                    @include button(16px, 600, white, $bg-color-primary , 15px 50px, 1px solid $bg-color-primary, 8px, #00732c, white)
+                }
+
+                #btn1 {
+                    transition: all 0.5s;
+                    @include button(16px, 600, white, $bg-color-primary , 6px 12px, 1px solid $bg-color-primary, 8px, #00732c, white)
+                }
+
+                #btn2 {
+                    transition: all 0.5s;
+                    @include button(16px, 600, white, $bg-gray , 6px 12px, 1px solid $bg-gray, 8px, $bg-color-primary, white)
+                }
+            }
+
+            .text1 {
+                padding: 12px 16px;
+                background: $bg-light-gray;
+                border-radius: 8px;
+                margin-bottom: 32px;
+            }
+
+            form {
+                .form-group {
+                    label {
+                        font-size: 18px;
+                        font-weight: normal;
+                        margin-top: 10px;
+
+                    }
+
+                    input {
+                        margin-top: 12px;
+                        // background: $bg-light-gray;
+                        transform: all 0.5s;
+
+                        &:focus {
+                            box-shadow: 0 0 0 0.2rem rgb(0 166 63 / 25%);
+                            border-color: #27ff79;
+                        }
+                    }
+
+                    small {
+                        font-size: 10px;
+                        font-weight: normal;
+                    }
+                }
+
+                button {
+                    margin-bottom: 10px;
+                }
+
+            }
+           .input-group{
+             input:focus, textarea:focus{
+                box-shadow: 0 0 0 0.2rem rgb(0 166 63 / 25%);
+                border-color: #27ff79;
+             }
+
+              .input-group-prepend{
+                #basic-addon1,  #basic-addon3,  .input-group-text{
+                    border-top-left-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                    // border-radius: 0;
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+               .input-group-text.text-form{
+                height:100%
+               }
+          
+              }
+                .input-group-append{
+                    #basic-addon2,.input-group-text{
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                        // border-radius: 0;
+                        border-top-right-radius: 8;
+                        border-bottom-right-radius: 8;
+                    }
+                  
+                }
+                textarea.form-control{
+                    
+                }
+           }
+            .code {
+                margin-bottom: 25px;
+                padding: 64px 32px;
+                background: $bg-light-gray;
+                border-radius: 8px;
+
+                pre {
+                    code {
+                        color: $text-c1-gray;
+                        font-size: 16px !important;
+                        font-weight: 300 !important;
+
+                        span,
+                        a {
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+
+            }
+            .media{
+                h5{
+                    @include text-heading(20px, 600, $text-c1-primary); 
+                }
+            }
+        }
+    }
+}

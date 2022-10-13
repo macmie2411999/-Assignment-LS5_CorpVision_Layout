@@ -5,6 +5,11 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
 .footer {
   background: #151421;
   border-top: 1px solid rgba(249, 249, 249, 0.1);
