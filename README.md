@@ -6,7 +6,7 @@ For Those Who Believe In Leaving A Mark <br>
 
 ## LINK DEMO
 <div align="center">
-[](https://jira-project.herokuapp.com)
+[]()
 </div>
 
 ## HÌNH ẢNH DEMO
@@ -16,7 +16,7 @@ For Those Who Believe In Leaving A Mark <br>
 
 ## VIDEO DEMO
 <div align="center">
-[![]()]()
+<!-- [![]()]() -->
 </div>
 
 ### THÀNH VIÊN
