@@ -11,7 +11,7 @@ For Those Who Believe In Leaving A Mark <br>
 
 ## HÌNH ẢNH DEMO
 <p align="center">
-<img src=""></img>
+<img src="https://raw.githubusercontent.com/-Assignment-LS5_CorpVision_Layout/image-preview/contact-image.png"></img>
 </p>
 
 ## VIDEO DEMO
