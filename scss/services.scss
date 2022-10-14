@@ -155,7 +155,7 @@ section {
                         width: 80%;
 
                         h1 {
-                            @include text-heading(22px, 600, $text--c1-green);
+                            @include text-heading(22px, 600, $text-c1-primary);
                         }
 
                         p {
@@ -222,12 +222,13 @@ section {
                     display: flex;
 
                     i {
-                        width: 10%;
+                        // width: 20%;
                         font-size: 40px;
+                        padding:20px;
                     }
 
                     .text {
-                        width: 90%;
+                        // width: 80%;
 
                         h1 {
                             font-size: 20px;

@@ -9,9 +9,38 @@
 
 // Main Style
 $text-c1-primary:#009f4d;
-.contact {
+$text-c1-gray: #7e7d7d;
+$text-c1-primary: #3f3a64;
+$text--c1-green: #009f4d;
 
-    background: #100f19;
+
+$bg-color-primary: #009f4d;
+$bg-light-gray: #f8f9fa;
+
+
+@mixin text-heading($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color
+}
+
+@mixin button($fs, $fw, $color, $bg-color, $padding , $border, $border-radius, $bg-hover, $color-hover) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    background: $bg-color;
+    padding: $padding;
+    border: $border;
+    border-radius: $border-radius;
+
+    &:hover {
+        background: $bg-hover;
+        color: $color-hover;
+    }
+}
+.contacts {
+
+    background:$bg-light-gray;
 
     .contact-container {
 
@@ -32,13 +61,13 @@ $text-c1-primary:#009f4d;
                 font-weight: 700;
                 margin: 0;
                 padding: 0;
-                color: #eee;
+                color: #3f3a64;
             }
 
             .title-content {
                 font-size: 17px;
                 line-height: 27px;
-                color: #c2c2c2;
+                color: gray;
                 opacity: .8;
                 margin: 0;
                 padding: 0;
@@ -60,13 +89,13 @@ $text-c1-primary:#009f4d;
                     height: 170px;
                     grid-template-columns: auto 1fr;
                     grid-gap: 20px;
-                    background: #151421;
+                    background: white;
                     padding: 30px;
                     box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
                     border-radius: 8px;
 
                     .icon-element {
-                        color: #eee;
+                        color:#3f3a64;
 
                         .fa {
                             font-size: 40px;
@@ -79,7 +108,7 @@ $text-c1-primary:#009f4d;
                             font-weight: 600;
                             margin: 0;
                             padding: 0;
-                            color: #eee;
+                            color:#3f3a64;
                         }
 
                         p {
@@ -87,7 +116,7 @@ $text-c1-primary:#009f4d;
                             padding: 0;
                             font-size: 17px;
                             line-height: 27px;
-                            color: #c2c2c2;
+                            color: gray;
                             opacity: .8;
 
                             a:hover {
@@ -113,7 +142,7 @@ $text-c1-primary:#009f4d;
 }
 
 .map-contact {
-    background: #100f19;
+    background:$bg-light-gray;
 
     .map-container {
         max-width: 1140px;
@@ -134,7 +163,7 @@ $text-c1-primary:#009f4d;
 }
 
 .form-contact {
-    background: #100f19;
+    background:$bg-light-gray;
 
     .form-contact-over {
 
@@ -161,7 +190,7 @@ $text-c1-primary:#009f4d;
                             // text-align: center !important;
                             margin: 0;
                             padding: 0;
-                            color: #eee;
+                            color:#3f3a64;
                         }
 
                         .title-form {
@@ -169,7 +198,7 @@ $text-c1-primary:#009f4d;
                             margin: auto;
                             font-size: 17px;
                             line-height: 27px;
-                            color: #c2c2c2;
+                            color:gray;
                             opacity: .8;
                         }
 
@@ -179,7 +208,7 @@ $text-c1-primary:#009f4d;
                             textarea {
                                 width: 100%;
                                 color: #c2c2c2;
-                                background: #151421;
+                                background: white;
                                 font-size: 18px;
                                 font-weight: normal;
                                 font-style: normal;

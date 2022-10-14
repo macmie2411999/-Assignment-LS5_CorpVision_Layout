@@ -460,7 +460,7 @@ section {
                         border-radius: 8px;
                     }
 
-                    .contact {
+                    .contact-p  {
                         position: absolute;
                         left: 0;
                         top: 50%;
@@ -485,7 +485,7 @@ section {
                         }
                     }
 
-                    &:hover .contact {
+                    &:hover .contact-p {
                         transform: translateY(0);
                         opacity: 1;
                     }

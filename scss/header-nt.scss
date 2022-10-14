@@ -32,6 +32,7 @@ $text-c1-primary:#009f4d;
         color: #97a1a9;
         opacity: .8;
     }
+  
 
     .container_header {
         max-width: 1200px;
@@ -40,7 +41,7 @@ $text-c1-primary:#009f4d;
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
-
+       
         .navbar {
             // format general navbar
             background-color: transparent;
@@ -71,7 +72,10 @@ $text-c1-primary:#009f4d;
                     opacity: .9;
                 }
             }
-
+            
+            // button#button-navb {
+            //     background: red;
+            // }
             .item-navbar {
 
                 .navbar-nav {
@@ -134,9 +138,9 @@ $text-c1-primary:#009f4d;
     }
 }
 
-.image-text-center {
+section.image-text-center {
     text-align: center !important;
-
+    padding-bottom: 0;
     .container-image-text {
         background: url("../image/b1.jpg");
         background-size: cover;

@@ -8,8 +8,38 @@
 
 // Header and Footer Style End
 $text-c1-primary:#009f4d;
+// Main Style
+$text-c1-gray: #7e7d7d;
+$text-c1-primary: #3f3a64;
+$text--c1-green: #009f4d;
+
+
+$bg-color-primary: #009f4d;
+$bg-light-gray: #f8f9fa;
+
+
+@mixin text-heading($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color
+}
+
+@mixin button($fs, $fw, $color, $bg-color, $padding , $border, $border-radius, $bg-hover, $color-hover) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    background: $bg-color;
+    padding: $padding;
+    border: $border;
+    border-radius: $border-radius;
+
+    &:hover {
+        background: $bg-hover;
+        color: $color-hover;
+    }
+}
 .blog-posts {
-    background: #151421;
+    background:#151421;
 
     .blog-posts-container {
         .article-container {
