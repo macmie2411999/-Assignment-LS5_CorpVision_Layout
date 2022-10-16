@@ -31,10 +31,10 @@ Nhóm gồm 2 thành viên:
 
 - Cao Đức Mạnh (MacMie) <br>
   Tạo Header và Footer dùng chung <br>
-  Pages: Contact, Blog Posts, 404  <br>
+  Pages: Contact, Blog Posts, 404, Home (1/2)  <br>
   
 - Nguyễn Tuấn  <br>
-  Pages: About, Services, Element Pages  <br>
+  Pages: About, Services, Element Pages, Home (1/2)  <br>
 
 ## BASE
 ```scss
