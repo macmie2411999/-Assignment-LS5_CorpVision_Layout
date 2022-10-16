@@ -137,7 +137,6 @@ ul {
   text-align: center !important;
 }
 .image-text-center .container-image-text {
-  background: url("../image/b1.jpg");
   background-size: cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   position: relative;
@@ -167,6 +166,104 @@ ul {
   opacity: 0.7;
 }
 .image-text-center .container-image-text .over-layout {
+  background: rgba(29, 42, 55, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.wrap-sliders {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.wrap-sliders .carousel-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.wrap-sliders .carousel-slider .banner-slide {
+  width: 100%;
+  position: relative;
+  min-height: 800px;
+  padding-bottom: 100px;
+  display: flex !important;
+  align-items: center;
+  z-index: 0;
+}
+.wrap-sliders .carousel-slider .banner-slide .banner-slide-container {
+  position: relative;
+  z-index: 12;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.wrap-sliders .carousel-slider .banner-slide .banner-slide-container .banner-slide-container-content {
+  color: #ffffff;
+}
+.wrap-sliders .carousel-slider .banner-slide .banner-slide-container .banner-slide-container-content h1 {
+  font-size: 55px;
+  line-height: 1.1;
+  margin-bottom: 18px;
+  max-width: 800px;
+  font-weight: 600;
+}
+.wrap-sliders .carousel-slider .banner-slide .banner-slide-container .banner-slide-container-content p {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 600px;
+  color: #fff;
+  letter-spacing: 0.01em;
+  opacity: 0.9;
+}
+.wrap-sliders .carousel-slider .banner-slide .banner-slide-container .banner-slide-container-content .div-btn {
+  padding-top: 30px;
+}
+.wrap-sliders .carousel-slider .banner-slide .banner-slide-container .banner-slide-container-content .div-btn .btn-learn-more {
+  padding: 15px 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+  border-radius: 8px;
+  cursor: pointer !important;
+  color: #fff;
+  background-color: #00a63f;
+  border-color: #00a63f;
+  border: 1px solid transparent;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.wrap-sliders .shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.wrap-sliders .shape svg {
+  width: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.wrap-sliders .shape path {
+  fill: #fff;
+}
+
+.over-layout {
   background: rgba(29, 42, 55, 0.8);
   position: absolute;
   left: 0;
