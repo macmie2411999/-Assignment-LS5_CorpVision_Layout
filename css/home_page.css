@@ -296,6 +296,14 @@ ul {
   color: #fff;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+section {
+  padding: 100px 0px;
+}
+
 .about-us-home {
   background: #ffffff;
 }
@@ -643,4 +651,291 @@ ul {
   color: #fff;
   background-color: #00a63f;
   border-color: #00a63f;
+}
+
+.gallery-home {
+  background: #f8f9fa;
+}
+.gallery-home .gallery-home-container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.gallery-home .gallery-home-container .gallery-home-title .title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7e7d7d;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: block;
+}
+.gallery-home .gallery-home-container .gallery-home-title .title-content {
+  font-size: 35px;
+  font-weight: 700;
+  color: #3f3a64;
+}
+.gallery-home .gallery-home-container .main .element {
+  position: relative;
+  overflow: hidden;
+  transition: all 1s;
+}
+.gallery-home .gallery-home-container .main .element:hover .hover-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+.gallery-home .gallery-home-container .main .element a {
+  overflow: hidden;
+}
+.gallery-home .gallery-home-container .main .element a img {
+  overflow: hidden;
+  transition: all 1s;
+}
+.gallery-home .gallery-home-container .main .element a img:hover {
+  transform: scale(1.1);
+}
+.gallery-home .gallery-home-container .main .element a .hover-content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: white;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 1s;
+}
+.gallery-home .gallery-home-container .main .element a .hover-content .title {
+  display: block;
+  font-size: 25px;
+}
+.gallery-home .gallery-home-container .main .element a .hover-content .content {
+  display: block;
+  font-size: 17px;
+}
+
+.progress-home .progress-home-content .progress-home-content-container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-home-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7e7d7d;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: block;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-home-title-content {
+  font-size: 35px;
+  font-weight: 700;
+  color: #3f3a64;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info {
+  margin-top: 30px;
+  position: relative;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info h6 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress {
+  height: 5px;
+  overflow: hidden;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-1 {
+  color: #61fded;
+  background-color: #0d8abc;
+  background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+  overflow: hidden;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-1::after {
+  content: "";
+  position: absolute;
+  right: 20%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 13px;
+  width: 13px;
+  border: 3px solid #61fded;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-1::before {
+  content: "";
+  position: absolute;
+  right: 20%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 28px;
+  width: 28px;
+  border: 1px solid #61fded;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-2 {
+  color: #eece90;
+  background-color: #d45529;
+  background-image: linear-gradient(-224deg, #d45529, #eece90);
+  overflow: hidden;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-2::after {
+  content: "";
+  position: absolute;
+  right: 5%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 13px;
+  width: 13px;
+  border: 3px solid #eece90;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-2::before {
+  content: "";
+  position: absolute;
+  right: 5%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 28px;
+  width: 28px;
+  border: 1px solid #eece90;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-3 {
+  color: #5c51ff;
+  background-color: #f646a9;
+  background-image: linear-gradient(-224deg, #f646a9, #5c51ff);
+  overflow: hidden;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-3::after {
+  content: "";
+  position: absolute;
+  right: 40%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 13px;
+  width: 13px;
+  border: 3px solid #5c51ff;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-3::before {
+  content: "";
+  position: absolute;
+  right: 40%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 28px;
+  width: 28px;
+  border: 1px solid #5c51ff;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-4 {
+  color: #e5529a;
+  background-color: #e77654;
+  background-image: linear-gradient(-224deg, #e77654, #e5529a);
+  overflow: hidden;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-4::after {
+  content: "";
+  position: absolute;
+  right: 15%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 13px;
+  width: 13px;
+  border: 3px solid #e5529a;
+}
+.progress-home .progress-home-content .progress-home-content-container .progress-info .progress .element-4::before {
+  content: "";
+  position: absolute;
+  right: 15%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 28px;
+  width: 28px;
+  border: 1px solid #e5529a;
+}
+
+.testimonials .container .title-small {
+  font-size: 14px;
+  font-weight: 600;
+  color: #7e7d7d;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 1px;
+  display: block;
+}
+.testimonials .container .title-big {
+  font-size: 35px;
+  font-weight: 700;
+  color: #3f3a64;
+}
+.testimonials .container .swiper {
+  max-width: 1000px;
+  text-align: center;
+}
+.testimonials .container .swiper .swiper-wrapper {
+  margin-bottom: 100px;
+}
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .item .testimonial-content .testimonial q {
+  font-size: 18px;
+  line-height: 28px;
+  color: gray;
+  opacity: 0.8;
+}
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .item .testimonial-content .testimonial .testi-des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .item .testimonial-content .testimonial .testi-des .test-img img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  background-image: top;
+}
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .item .testimonial-content .testimonial .testi-des .peopl {
+  margin-left: 20px;
+}
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .item .testimonial-content .testimonial .testi-des .peopl h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #3f3a64;
+  text-align: left;
+}
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .item .testimonial-content .testimonial .testi-des .peopl p {
+  font-style: normal;
+  margin-bottom: 0;
+  opacity: 0.8;
+  color: gray;
+  text-align: left;
+}
+.testimonials .container .swiper .swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #3f3a64;
+  font-size: 50px;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+}
+.testimonials .container .swiper .swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullet {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+.testimonials .container .swiper .swiper-pagination span.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #3f3a64;
+  transition: all 1s;
+  opacity: 0.5;
 }
