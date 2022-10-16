@@ -2,7 +2,7 @@
 @import '../scss/_base.scss';
 
 // Header and Footer Style
-@import '../scss/header.scss';
+@import '../scss/header-nt.scss';
 
 @import '../scss/footer.scss';
 // Header and Footer Style End
@@ -12,7 +12,7 @@ $text-c1-primary:#009f4d;
 
 // About Us
 .about-us-home {
-    background: #151421;
+    background: #ffffff;
 
     .about-us-home-container {
         .about-us-home-content {
@@ -37,7 +37,7 @@ $text-c1-primary:#009f4d;
                         text-transform: uppercase;
                         line-height: 30px;
                         letter-spacing: 1px;
-                        color: #7e7d7d;
+                        color: #666;
                         display: block;
                         outline: none;
                     }
@@ -46,7 +46,7 @@ $text-c1-primary:#009f4d;
                         font-size: 35px;
                         line-height: 45px;
                         font-weight: 700;
-                        color: #eee;
+                        color: #3f3a64;
                     }
 
                     p {
@@ -70,7 +70,7 @@ $text-c1-primary:#009f4d;
                                 font-size: 18px;
                                 line-height: 28px;
                                 font-weight: 600;
-                                color: #eee;
+                                color: #3f3a64;
                                 position: relative;
                                 -webkit-transition: 0.5s all;
                                 cursor: pointer !important;
@@ -112,7 +112,7 @@ $text-c1-primary:#009f4d;
 
 // Features
 .features-home {
-    background: #100f19;
+    background: #f7f7f7;
 
     .features-home-container {
         max-width: 960px;
@@ -136,7 +136,7 @@ $text-c1-primary:#009f4d;
                     text-transform: uppercase;
                     line-height: 30px;
                     letter-spacing: 1px;
-                    color: #7e7d7d;
+                    color: #666;
                     display: block;
                     outline: none;
                 }
@@ -145,7 +145,7 @@ $text-c1-primary:#009f4d;
                     font-size: 35px;
                     line-height: 45px;
                     font-weight: 700;
-                    color: #eee;
+                    color: #3f3a64;
                 }
 
                 p {
@@ -181,7 +181,7 @@ $text-c1-primary:#009f4d;
                         border-radius: 8px;
                         text-align: center;
                         box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
-                        background-color: #151421;
+                        background-color: #fff;
                         -webkit-transition: .3s ease;
 
                         .element-icon {
@@ -200,7 +200,7 @@ $text-c1-primary:#009f4d;
                             padding: 0;
                             font-weight: 500;
                             line-height: 1.2;
-                            color: #eee;
+                            color: #3f3a64;
 
                             a {
                                 font-size: 22px;
@@ -208,7 +208,7 @@ $text-c1-primary:#009f4d;
                                 font-weight: 600;
                                 margin-top: 25px;
                                 display: block;
-                                color: #eee;
+                                color: #3f3a64;
                                 -webkit-transition: 0.5s all;
                                 cursor: pointer !important;
                                 background-color: transparent;
@@ -224,7 +224,8 @@ $text-c1-primary:#009f4d;
 
 // Services
 .service-home {
-    background: #151421;
+    background: #fff;
+
     .service-home-block {
         .service-home-block-container {
             max-width: 960px;
@@ -238,7 +239,7 @@ $text-c1-primary:#009f4d;
                 font-size: 35px;
                 line-height: 45px;
                 font-weight: 700;
-                color: #eee;
+                color: #3f3a64;
             }
 
             .row {
@@ -281,9 +282,9 @@ $text-c1-primary:#009f4d;
                                 font-size: 19px;
                                 line-height: 28px;
                                 font-weight: 600;
-                                color: #eee;
+                                color: #3f3a64;
                                 text-align: center;
-                                background: #151421;
+                                background: #fff;
                                 padding: 12px 35px;
                                 display: inline-block;
                                 border: 1px solid rgba(255, 255, 255, 0.2);
@@ -310,7 +311,7 @@ $text-c1-primary:#009f4d;
                             font-size: 16px;
                             line-height: 28px;
                             font-weight: 600;
-                            color: #eee;
+                            color: #3f3a64;
                             border-radius: 8px;
                             text-align: center;
                             vertical-align: middle;
@@ -318,6 +319,110 @@ $text-c1-primary:#009f4d;
                             border: 1px solid transparent;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+// Subscribes
+.subscribe {
+    background-image: url(../image/map.png);
+    background-color: #151421;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .subscribe-container {
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        .subscribe-info {
+            max-width: 700px;
+            margin: 0 auto;
+
+            .header-section {
+                .title {
+                    color: #fff;
+                    font-size: 35px;
+                    line-height: 45px;
+                    font-weight: 700;
+                }
+
+                .title-content {
+                    font-size: 17px;
+                    line-height: 27px;
+                    color: #eee;
+                    opacity: .8;
+                }
+
+            }
+
+            .subscribe-form {
+                position: relative;
+                display: grid;
+                grid-template-columns: 50px 1fr auto;
+                max-width: 550px;
+                margin: auto;
+
+                .input-group-text {
+                    color: #999;
+                    background-color: rgba(0, 0, 0, 0.25);
+                    border-color: rgba(255, 255, 255, 0.15);
+                    padding: 0 15px;
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    display: flex;
+                    align-items: center;
+                    display: flex;
+                    margin-bottom: 0;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    border: 1px solid #ced4da;
+                    border-radius: 2px;
+                    text-align: center;
+                    white-space: nowrap;
+
+                    span {
+                        outline: none;
+
+                        .fa {
+                            display: inline-block;
+                            font-size: inherit;
+                            text-rendering: auto;
+                        }
+                    }
+                }
+
+                input {
+                    padding: 14px 20px;
+                    font-size: 16px;
+                    line-height: 28px;
+                    border: 1px solid #eee;
+                    outline: none;
+                    width: 100%;
+                    background: #fff;
+                    border-radius: 0;
+                    color: #999;
+                    background-color: rgba(0, 0, 0, 0.2);
+                    border-color: rgba(255, 255, 255, 0.15);
+                    border-left: none;
+                }
+
+                .btn-subscribe {
+                    padding: 0 25px;
+                    font-size: 16px;
+                    line-height: 18px;
+                    font-weight: 600;
+                    border-radius: 2px;
+                    cursor: pointer !important;
+                    color: #fff;
+                    background-color: #00a63f;
+                    border-color: #00a63f;
                 }
             }
         }
